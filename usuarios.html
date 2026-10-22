@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de usuarios</title>
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+    <body>
+        <main class="contenedor">
+            <div class="tarjeta">
+                <h1>Crear Cuenta</h1>
+                <p>Sistema de usuarios</p>
+            </div>
+
+            <form action="#" method="post">
+                <h2>Registro de usuario</h2>
+
+                <div class="grupo">
+                    <label form="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre"
+                    placeholder="Escribe tu nombre" required>
+                </div>
+
+                <div class="grupo">
+                    <label for="correo">Correo Electronico</label>
+
+                    <input type="email" id="correo" name="correo"
+                    placeholder="correo@deejemplo.com" required>
+                </div>
+
+                <div class="grupo">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password"
+                    placeholder="Minimo 8 caracteres"
+                    minlength="8" required>
+                </div>
+
+                <div class="grupo">
+                    <label for="Confirmar">Confirmar Contraseña</label>
+                    <input type="password" id="Confirmar" name="Confirmar"
+                    placeholder="Repite tu contraseña por favor">
+                </div>
+            
+                <button type="submit" class="boton">Crear cuenta</button>
+
+                <p class="=texto-enlace">
+                    ¿Ya tienes una cuenta?
+                    <a href="index.php">Iniciar Sesion</a>
+                </p>
+
+
+
+
+
+
+
+
+
+            </form>
+        </main>
+    </body>
+</html>
